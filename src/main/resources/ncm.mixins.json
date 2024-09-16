@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.ncm.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "ncm.refmap.json",
+  "mixins": [
+    "GameModeArgumentMixin",
+    "GameTypeMixin",
+    "PlayerMixin"
+  ],
+  "client": [
+    "GameModeIconMixin",
+    "GameModeSwitcherScreenMixin",
+    "GameTabMixin",
+    "SelectedGameModeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,6 @@
+#Range: -255.0 ~ 255.0
+luck = 127.0
+#Range: -255.0 ~ 255.0
+loot_luck = 34.0
+#Range: -10 ~ 1000
+rolls = -11

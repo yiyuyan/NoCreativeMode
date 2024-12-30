@@ -14,12 +14,11 @@ repositories {
 }
 
 base {
-    archivesName = mod_id
+    archivesName = mod_id+'-neoforge-1.21.x'
 }
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
-
-//minecraft.accessTransformers.file rootProject.file('src/main/resources/META-INF/accesstransformer.cfg')
+minecraft.accessTransformers.file rootProject.file('src/main/resources/META-INF/accesstransformer.cfg')
 //minecraft.accessTransformers.entry public net.minecraft.client.Minecraft textureManager # textureManager
 
 // Default run configurations.
